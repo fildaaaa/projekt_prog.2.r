@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\chodba.jpg" />
+    <None Remove="Images\obraz.png" />
+    <None Remove="Images\odsunutamonalisabezklicu.jpg" />
+    <None Remove="Images\odsunutamonalisasklicema.jpg" />
+    <None Remove="Images\otevrene_dvere.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\chodba.jpg" />
+    <Resource Include="Images\obraz.png" />
+    <Resource Include="Images\odsunutamonalisabezklicu.jpg" />
+    <Resource Include="Images\odsunutamonalisasklicema.jpg" />
+    <Resource Include="Images\otevrene_dvere.png" />
+  </ItemGroup>
+
+</Project>
