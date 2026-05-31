@@ -7,4 +7,6 @@ WPF
 23.4 - vylepšení grafiky pomocí AI
 29.4 - Začátek práce ve WPF
 7.5 -  Tvoření hry na prvním snímku
+15.5 - Logika v cs
+21.5 - Dokončení prvního snímku
 27.5 - Dokončování a úpravy
